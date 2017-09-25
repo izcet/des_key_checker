@@ -6,7 +6,7 @@
 /*   By: irhett <irhett@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/09/25 11:25:37 by irhett            #+#    #+#             */
-/*   Updated: 2017/09/25 11:42:27 by irhett           ###   ########.fr       */
+/*   Updated: 2017/09/25 12:28:26 by irhett           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,10 +35,8 @@ static unsigned int		keycomp[48] = {
 	51,	45,	33,	48,	44,	49,	39,	56,
 	34,	53,	46,	42,	50,	36,	29,	32};
 
-void					check_left_rotate_1(char *subkey);
-void					check_right_rotate_1(char *subkey);
-void					check_left_rotate_2(char *subkey);
-void					check_right_rotate_2(char *subkey);
+void					check_left_rotate(char *key, char *last, int offset);
+void					check_right_rotate(char *key, char *last, int offset);
 
 void					check_initial_permutation(char *fullkey, char *comp);
 void					check_compression_permutation(char *key, char *subkey);

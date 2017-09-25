@@ -6,7 +6,7 @@
 #    By: irhett <irhett@student.42.us.org>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/09/25 11:25:07 by irhett            #+#    #+#              #
-#    Updated: 2017/09/25 11:48:22 by irhett           ###   ########.fr        #
+#    Updated: 2017/09/25 12:27:16 by irhett           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC			=	gcc
 FLAGS		=	-Wall -Werror -Wextra
 
 SRC_DIR		=	src
-SRC_FILE	=	main.c check_initial_permutation.c
+SRC_FILE	=	main.c check_initial_permutation.c check_rotate.c
 SRCS		=	$(addprefix $(SRC_DIR)/, $(SRC_FILE))
 
 OBJ_DIR		=	obj
